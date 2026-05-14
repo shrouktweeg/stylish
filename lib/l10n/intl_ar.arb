@@ -7,6 +7,27 @@
   "Skip": "تخطى",
   "Prev": "السابق",
   "Next": "التالى",
-  "GetStarted": "لنبدأ"
+  "GetStarted": "لنبدأ",
+  "WelcomeBack": "مرحبًا بعودتك!",
+  "UsernameOrEmail": "اسم المستخدم أو البريد الإلكتروني",
+  "Password": "كلمة المرور",
+  "ForgotPassword": "هل نسيت كلمة المرور؟",
+  "Login": "تسجيل الدخول",
+  "ORContinueWith": "أو تابع مع",
+  "Create An Account": "إنشاء حساب",
+  "SignUp": "إنشاء",
+  "ConfirmPassword": "تأكيد كمة المرور",
+  "ByClickingThe": "بالنقر على ",
+  "Register": "التسجيل ",
+  "buttonYouAgreeToThePublicOffer": "بالنقر على الزر، فإنك توافق على العرض العام ",
+  "Create Account": "إنشاء حساب",
+  "IAlreadyHaveAnAccount": "لدي حساب بالفعل",
+  "ForgotPassword?": "هل نسيت كلمة السر؟",
+  "EnterYourEmailAddress": "أدخل عنوان بريدك الإلكتروني",
+  "forgotPasswordDescription": "* سنرسل إليك رسالة لتعيين أو إعادة تعيين كلمة المرور الجديدة الخاصة بك",
+  "Submit": "إرسال"
+
+
+
 
 }

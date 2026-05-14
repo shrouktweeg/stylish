@@ -9,9 +9,21 @@ class AppTextStyles {
     fontSize: 30.sp,
     fontWeight: FontWeight.bold,
     color: AppColors.black,
+  );  static TextStyle montserrat36Bold = GoogleFonts.montserrat(
+    fontSize: 36.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.black,
+  ); static TextStyle montserrat12Regular = GoogleFonts.montserrat(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.primaryRed,
   ); static TextStyle montserrat24ExtraBold = GoogleFonts.montserrat(
     fontSize: 24.sp,
     fontWeight: FontWeight.w800,
+    color: AppColors.black,
+  );static TextStyle montserrat12Medium = GoogleFonts.montserrat(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
     color: AppColors.black,
   );
   static TextStyle libreCaslonText40Bold = GoogleFonts.libreCaslonText(

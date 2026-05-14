@@ -7,8 +7,23 @@
   "Skip": "Skip",
   "Prev": "Prev",
   "Next": "Next",
-  "GetStarted": "Get Started"
-
-
-
+  "GetStarted": "Get Started",
+  "WelcomeBack": "Welcome Back!",
+  "UsernameOrEmail": "Username or Email",
+  "Password": "Password",
+  "ForgotPassword": "Forgot Password?",
+  "Login": "Login",
+  "ORContinueWith": "OR Continue with",
+  "CreateAnAccount": "Create An Account",
+  "SignUp": "Sign Up",
+  "ConfirmPassword": "ConfirmPassword",
+  "ByClickingThe": "By clicking the ",
+  "Register": "Register ",
+  "buttonYouAgreeToThePublicOffer": " button, you agree to the public offer",
+  "Create Account": "Create Account",
+  "IAlreadyHaveAnAccount": "I Already Have an Account",
+  "ForgotPassword?": "Forgot password?",
+  "EnterYourEmailAddress": "Enter your email address",
+  "forgotPasswordDescription": "* We will send you a message to set or reset your new password",
+  "Submit": "Submit"
 }

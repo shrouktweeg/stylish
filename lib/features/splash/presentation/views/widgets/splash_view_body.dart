@@ -6,6 +6,7 @@ import 'package:stylish/core/utils/app_text_style.dart';
 
 import '../../../../../generated/assets.dart';
 import '../../../../../generated/l10n.dart';
+import '../../../../on_boarding/presentation/data/service/on_boarding_services.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
@@ -16,18 +17,22 @@ class SplashViewBody extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashViewBody> {
   @override
-  @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      Future.delayed(const Duration(seconds: 3), () {
-        if (!mounted) return;
-        context.go(AppRoutes.onBoarding);
-      });
-    });
-
+    _checkNavigation();
   }
 
+  Future<void> _checkNavigation() async {
+    bool isFirstTime = OnBoardingServices.isFirstTime();
+    await Future.delayed(const Duration(seconds: 2));
+    if (!mounted) return;
+
+    if (isFirstTime == false) {
+      context.go(AppRoutes.login);
+    } else {
+      context.go(AppRoutes.onBoarding);
+    }
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

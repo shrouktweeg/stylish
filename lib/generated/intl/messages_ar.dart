@@ -22,13 +22,40 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "ByClickingThe": MessageLookupByLibrary.simpleMessage("بالنقر على "),
     "ChooseProducts": MessageLookupByLibrary.simpleMessage("اختر المنتجات"),
+    "ConfirmPassword": MessageLookupByLibrary.simpleMessage("تأكيد كمة المرور"),
+    "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
+      "أدخل عنوان بريدك الإلكتروني",
+    ),
+    "ForgotPassword": MessageLookupByLibrary.simpleMessage(
+      "هل نسيت كلمة المرور؟",
+    ),
     "GetStarted": MessageLookupByLibrary.simpleMessage("لنبدأ"),
     "GetYourOrder": MessageLookupByLibrary.simpleMessage("احصل على طلبك"),
+    "IAlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
+      "لدي حساب بالفعل",
+    ),
+    "Login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "MakePayment": MessageLookupByLibrary.simpleMessage("إجراء الدفع"),
     "Next": MessageLookupByLibrary.simpleMessage("التالى"),
+    "ORContinueWith": MessageLookupByLibrary.simpleMessage("أو تابع مع"),
+    "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "Prev": MessageLookupByLibrary.simpleMessage("السابق"),
+    "Register": MessageLookupByLibrary.simpleMessage("التسجيل "),
+    "SignUp": MessageLookupByLibrary.simpleMessage("إنشاء"),
     "Skip": MessageLookupByLibrary.simpleMessage("تخطى"),
+    "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
+    "UsernameOrEmail": MessageLookupByLibrary.simpleMessage(
+      "اسم المستخدم أو البريد الإلكتروني",
+    ),
+    "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
+    "buttonYouAgreeToThePublicOffer": MessageLookupByLibrary.simpleMessage(
+      "بالنقر على الزر، فإنك توافق على العرض العام ",
+    ),
+    "forgotPasswordDescription": MessageLookupByLibrary.simpleMessage(
+      "* سنرسل إليك رسالة لتعيين أو إعادة تعيين كلمة المرور الجديدة الخاصة بك",
+    ),
     "onBoardingDescription": MessageLookupByLibrary.simpleMessage(
       "اختر منتجاتك المفضلة من بين أكثر من 1000 منتج من أفضل الماركات العالمية، ستايليش يوفر لك كل ما تحتاجه من أحدث صيحات الموضة بضغطة زر واحدة.استمتع بتجربة شراء آمنة تماماً مع خيارات دفع متعددة وسهلة تناسب احتياجاتك، نحن نضمن لك حماية كاملة لبياناتك وخصوصيتك في كل عملية تسوق.احصل على طلبك في أسرع وقت ممكن حتى باب منزلك مع خدمة التوصيل السريع وتغليف عالي الجودة يضمن وصول منتجاتك إليك في أفضل حالة.",
     ),

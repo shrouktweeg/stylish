@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../../core/utils/app_color.dart';
 import '../../../../../core/utils/app_text_style.dart';
 import '../../../../../core/widgets/custom_sized_box.dart';
-import '../data/models/on_boarding_model.dart';
+import '../../data/models/on_boarding_model.dart';
 
 class OnBoardingItem extends StatelessWidget {
   final OnBoardingModel model;

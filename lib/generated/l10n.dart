@@ -118,6 +118,145 @@ class S {
   String get GetStarted {
     return Intl.message('Get Started', name: 'GetStarted', desc: '', args: []);
   }
+
+  /// `Welcome Back!`
+  String get WelcomeBack {
+    return Intl.message(
+      'Welcome Back!',
+      name: 'WelcomeBack',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username or Email`
+  String get UsernameOrEmail {
+    return Intl.message(
+      'Username or Email',
+      name: 'UsernameOrEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get Password {
+    return Intl.message('Password', name: 'Password', desc: '', args: []);
+  }
+
+  /// `Forgot Password?`
+  String get ForgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'ForgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get Login {
+    return Intl.message('Login', name: 'Login', desc: '', args: []);
+  }
+
+  /// `OR Continue with`
+  String get ORContinueWith {
+    return Intl.message(
+      'OR Continue with',
+      name: 'ORContinueWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create An Account`
+  String get CreateAnAccount {
+    return Intl.message(
+      'Create An Account',
+      name: 'CreateAnAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Up`
+  String get SignUp {
+    return Intl.message('Sign Up', name: 'SignUp', desc: '', args: []);
+  }
+
+  /// `ConfirmPassword`
+  String get ConfirmPassword {
+    return Intl.message(
+      'ConfirmPassword',
+      name: 'ConfirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By clicking the `
+  String get ByClickingThe {
+    return Intl.message(
+      'By clicking the ',
+      name: 'ByClickingThe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register `
+  String get Register {
+    return Intl.message('Register ', name: 'Register', desc: '', args: []);
+  }
+
+  /// ` button, you agree to the public offer`
+  String get buttonYouAgreeToThePublicOffer {
+    return Intl.message(
+      ' button, you agree to the public offer',
+      name: 'buttonYouAgreeToThePublicOffer',
+      desc: '',
+      args: [],
+    );
+  }
+
+  // skipped getter for the 'Create Account' key
+
+  /// `I Already Have an Account`
+  String get IAlreadyHaveAnAccount {
+    return Intl.message(
+      'I Already Have an Account',
+      name: 'IAlreadyHaveAnAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  // skipped getter for the 'ForgotPassword?' key
+
+  /// `Enter your email address`
+  String get EnterYourEmailAddress {
+    return Intl.message(
+      'Enter your email address',
+      name: 'EnterYourEmailAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `* We will send you a message to set or reset your new password`
+  String get forgotPasswordDescription {
+    return Intl.message(
+      '* We will send you a message to set or reset your new password',
+      name: 'forgotPasswordDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get Submit {
+    return Intl.message('Submit', name: 'Submit', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

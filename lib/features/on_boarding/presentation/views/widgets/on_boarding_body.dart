@@ -2,14 +2,17 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 
 import 'package:stylish/core/widgets/custom_sized_box.dart';
-import 'package:stylish/features/on_boarding/presentation/views/data/models/on_boarding_model.dart';
 import 'package:stylish/features/on_boarding/presentation/views/widgets/on_boarding_header_widget.dart';
 import 'package:stylish/features/on_boarding/presentation/views/widgets/on_boarding_item.dart';
 
+import '../../../../../core/routing/app_routes.dart';
 import '../../../../../generated/assets.dart';
 import '../../../../../generated/l10n.dart';
+import '../../data/models/on_boarding_model.dart';
+import '../../data/service/on_boarding_services.dart';
 import 'on_boarding_navigation.dart' ;
 
 
@@ -87,8 +90,10 @@ class OnBoardingBodyViewState extends State<OnBoardingBodyView> {
                     onNext: () {
                       if (currentIndexPage < onBoardingScreens.length - 1) {
                         carouselController.nextPage();
-                      } else {
-                        // context.go(AppRoutes.login);
+                      }
+                     else {
+                        OnBoardingServices.setIsFirstTime();
+                        context.go(AppRoutes.login);
                       }
                     },
                     onPrev: () => carouselController.previousPage(),
