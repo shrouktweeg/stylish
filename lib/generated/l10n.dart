@@ -129,14 +129,14 @@ class S {
     );
   }
 
-  /// `Username or Email`
-  String get UsernameOrEmail {
-    return Intl.message(
-      'Username or Email',
-      name: 'UsernameOrEmail',
-      desc: '',
-      args: [],
-    );
+  /// `Username`
+  String get Username {
+    return Intl.message('Username', name: 'Username', desc: '', args: []);
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message('Email', name: 'Email', desc: '', args: []);
   }
 
   /// `Password`

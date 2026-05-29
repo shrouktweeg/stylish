@@ -14,12 +14,11 @@ class Validators {
       return "Password is required";
     }
 
-
-    final passwordRegExp = RegExp(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9]).{8,}$');
+    final passwordRegExp = RegExp(r'^[a-zA-Z0-9]{8,}$');
 
     if (!passwordRegExp.hasMatch(value)) {
-      return "Password must be at least 8 characters, include an uppercase letter, and a number";
+      return "Password must be at least 8 characters and contain only letters and numbers";
     }
+
     return null;
-  }
-}
+  }}

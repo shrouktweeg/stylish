@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ByClickingThe": MessageLookupByLibrary.simpleMessage("بالنقر على "),
     "ChooseProducts": MessageLookupByLibrary.simpleMessage("اختر المنتجات"),
     "ConfirmPassword": MessageLookupByLibrary.simpleMessage("تأكيد كمة المرور"),
+    "Email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "أدخل عنوان بريدك الإلكتروني",
     ),
@@ -46,9 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "SignUp": MessageLookupByLibrary.simpleMessage("إنشاء"),
     "Skip": MessageLookupByLibrary.simpleMessage("تخطى"),
     "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
-    "UsernameOrEmail": MessageLookupByLibrary.simpleMessage(
-      "اسم المستخدم أو البريد الإلكتروني",
-    ),
+    "Username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
     "buttonYouAgreeToThePublicOffer": MessageLookupByLibrary.simpleMessage(
       "بالنقر على الزر، فإنك توافق على العرض العام ",

@@ -1,4 +1,5 @@
-import 'package:e_commerce_udemy/features/auth/models/userModel.dart';
+
+import '../../../data/models/userModel.dart';
 
 abstract class SignupState{}
 class InitialSignUpState extends SignupState{}

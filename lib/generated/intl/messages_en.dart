@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "CreateAnAccount": MessageLookupByLibrary.simpleMessage(
       "Create An Account",
     ),
+    "Email": MessageLookupByLibrary.simpleMessage("Email"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "Enter your email address",
     ),
@@ -47,9 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
     "Submit": MessageLookupByLibrary.simpleMessage("Submit"),
-    "UsernameOrEmail": MessageLookupByLibrary.simpleMessage(
-      "Username or Email",
-    ),
+    "Username": MessageLookupByLibrary.simpleMessage("Username"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("Welcome Back!"),
     "buttonYouAgreeToThePublicOffer": MessageLookupByLibrary.simpleMessage(
       " button, you agree to the public offer",

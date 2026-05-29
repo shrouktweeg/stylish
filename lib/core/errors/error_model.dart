@@ -1,4 +1,5 @@
-import 'package:stylish/core/api/end_points.dart';
+
+import '../netwoking/end_points.dart';
 
 class ErrorModel{
   final int statusCode;

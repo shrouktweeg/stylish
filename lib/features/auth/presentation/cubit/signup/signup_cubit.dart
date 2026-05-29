@@ -1,21 +1,38 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce_udemy/features/auth/cubit/signup/signup_state.dart';
-import 'package:e_commerce_udemy/features/auth/models/userModel.dart';
-import 'package:e_commerce_udemy/features/auth/repo/auth_repo.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:stylish/core/errors/error_model.dart';
+import 'package:stylish/features/auth/presentation/cubit/signup/signup_state.dart';
 
+import '../../../data/models/userModel.dart';
+import '../../../repo/auth_repo.dart';
 
-class SignupCubit extends Cubit<SignupState>{
+class SignupCubit extends Cubit<SignupState> {
   final AuthRepo _authRepo;
-  SignupCubit( this._authRepo):super(InitialSignUpState());
-  signUp({required String username,required String password,required String email,String avatar='https://picsum.photos/800'})async{
-    emit(LoadingSignUpState());
-    final Either<String, UserModel> response= await _authRepo.signUp(email: email,username: username,avatar: avatar, password: password);
-    response.fold((error){
-      emit(FailureSignUpState(message: error));
-    }, (user){
-      emit(SuccessSignUpState(userModel: user));
-    });
-  }
 
+  SignupCubit(this._authRepo) : super(InitialSignUpState());
+
+  Future<void> signUp({
+    required String username,
+    required String password,
+    required String email,
+    String avatar = 'https://picsum.photos/800',
+  }) async {
+    emit(LoadingSignUpState());
+
+    final Either<ErrorModel, UserModel> response = await _authRepo.signUp(
+      email: email,
+      username: username,
+      avatar: avatar,
+      password: password,
+    );
+
+    response.fold(
+          (error) {
+        emit(FailureSignUpState(message: error.errorMessage));
+      },
+          (user) {
+        emit(SuccessSignUpState(userModel: user));
+      },
+    );
+  }
 }

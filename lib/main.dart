@@ -4,12 +4,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stylish/core/routing/app_router.dart';
 import 'package:stylish/core/utils/app_theme.dart';
 
+import 'core/utils/service_locator.dart';
 import 'features/on_boarding/presentation/data/service/on_boarding_services.dart';
 import 'generated/l10n.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await OnBoardingServices.initializeSharedPreferencesInstance();
+   setupServiceLocator();
   runApp(const StylishApp());
 }
 
