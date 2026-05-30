@@ -9,7 +9,7 @@ import '../../features/auth/presentation/cubit/login/login_cubit.dart';
 import '../../features/auth/presentation/cubit/signup/signup_cubit.dart';
 import '../../features/auth/presentation/views/signup_view.dart';
 
-import '../utils/service_locator.dart';
+import '../service/get_it_service.dart';
 
 abstract class AppRouter{
   static final goRouter=GoRouter(routes: [

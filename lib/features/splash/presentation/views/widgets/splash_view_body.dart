@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:stylish/core/routing/app_routes.dart';
+import 'package:stylish/core/service/shared_pref_service.dart';
 import 'package:stylish/core/utils/app_text_style.dart';
 
+import '../../../../../core/service/get_it_service.dart';
 import '../../../../../generated/assets.dart';
 import '../../../../../generated/l10n.dart';
 import '../../../../on_boarding/presentation/data/service/on_boarding_services.dart';
@@ -23,17 +25,24 @@ class _SplashScreenState extends State<SplashViewBody> {
   }
 
   Future<void> _checkNavigation() async {
-    bool isFirstTime = OnBoardingServices.isFirstTime();
     await Future.delayed(const Duration(seconds: 2));
+
     if (!mounted) return;
 
-    if (isFirstTime == false) {
-      context.go(AppRoutes.login);
-    } else {
-      context.go(AppRoutes.onBoarding);
+    bool isFirstTime = OnBoardingServices.isFirstTime();
+    if (isFirstTime) {
+      context.goNamed(AppRoutes.onBoarding);
+      return;
     }
-  }
-  @override
+
+    final isLoggedIn = sl<SharedPrefService>().getLoggedIn();
+
+    if (isLoggedIn) {
+      context.goNamed(AppRoutes.home);
+    } else {
+      context.goNamed(AppRoutes.login);
+    }
+  }  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:stylish/core/interceptors/api_interceptors.dart';
+import 'package:stylish/core/netwoking/api_interceptors.dart';
 import 'package:stylish/core/netwoking/end_points.dart';
 import 'package:stylish/core/errors/exceptions.dart';
 

@@ -4,10 +4,10 @@ import 'package:stylish/core/errors/error_model.dart';
 import 'package:stylish/features/auth/presentation/cubit/signup/signup_state.dart';
 
 import '../../../data/models/userModel.dart';
-import '../../../repo/auth_repo.dart';
+import '../../../repo/auth_repo_impl.dart';
 
 class SignupCubit extends Cubit<SignupState> {
-  final AuthRepo _authRepo;
+  final AuthRepoImpl _authRepo;
 
   SignupCubit(this._authRepo) : super(InitialSignUpState());
 
