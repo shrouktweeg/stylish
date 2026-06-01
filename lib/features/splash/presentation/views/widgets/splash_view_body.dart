@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashViewBody> {
     final isLoggedIn = sl<SharedPrefService>().getLoggedIn();
 
     if (isLoggedIn) {
-      context.goNamed(AppRoutes.home);
+      context.goNamed(AppRoutes.getStarted);
     } else {
       context.goNamed(AppRoutes.login);
     }

@@ -26,7 +26,11 @@
   "ForgotPassword?": "هل نسيت كلمة السر؟",
   "EnterYourEmailAddress": "أدخل عنوان بريدك الإلكتروني",
   "forgotPasswordDescription": "* سنرسل إليك رسالة لتعيين أو إعادة تعيين كلمة المرور الجديدة الخاصة بك",
-  "Submit": "إرسال"
+  "Submit": "إرسال",
+  "YouWantAuthenticHereYouGo": "تريد الأصالة؟ تفضل!",
+  "FindItHereBuyItNow": "تجده هنا، اشترِ الآن!"
+
+
 
 
 

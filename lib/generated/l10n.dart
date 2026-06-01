@@ -257,6 +257,26 @@ class S {
   String get Submit {
     return Intl.message('Submit', name: 'Submit', desc: '', args: []);
   }
+
+  /// `You want Authentic, here you go!`
+  String get YouWantAuthenticHereYouGo {
+    return Intl.message(
+      'You want Authentic, here you go!',
+      name: 'YouWantAuthenticHereYouGo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Find it here, buy it now!`
+  String get FindItHereBuyItNow {
+    return Intl.message(
+      'Find it here, buy it now!',
+      name: 'FindItHereBuyItNow',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

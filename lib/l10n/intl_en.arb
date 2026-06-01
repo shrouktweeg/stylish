@@ -26,5 +26,8 @@
   "ForgotPassword?": "Forgot password?",
   "EnterYourEmailAddress": "Enter your email address",
   "forgotPasswordDescription": "* We will send you a message to set or reset your new password",
-  "Submit": "Submit"
+  "Submit": "Submit",
+  "YouWantAuthenticHereYouGo": "You want Authentic, here you go!",
+  "FindItHereBuyItNow": "Find it here, buy it now!",
+
 }

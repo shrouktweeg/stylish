@@ -32,6 +32,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "Enter your email address",
     ),
+    "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
+      "Find it here, buy it now!",
+    ),
     "ForgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
     "GetStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
     "GetYourOrder": MessageLookupByLibrary.simpleMessage("Get Your Order"),
@@ -50,6 +53,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "Submit": MessageLookupByLibrary.simpleMessage("Submit"),
     "Username": MessageLookupByLibrary.simpleMessage("Username"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("Welcome Back!"),
+    "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
+      "You want Authentic, here you go!",
+    ),
     "buttonYouAgreeToThePublicOffer": MessageLookupByLibrary.simpleMessage(
       " button, you agree to the public offer",
     ),

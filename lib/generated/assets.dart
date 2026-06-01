@@ -15,6 +15,8 @@ class $AssetsImagesGen {
 
   final AssetGenImage appIcon = const AssetGenImage(
       'assets/images/app_icon.png');
+  final AssetGenImage getStarted = const AssetGenImage(
+      'assets/images/get_started.png');
   final AssetGenImage onBoarding1 = const AssetGenImage(
       'assets/images/onBoarding1.png');
   final AssetGenImage onBoarding2 = const AssetGenImage(

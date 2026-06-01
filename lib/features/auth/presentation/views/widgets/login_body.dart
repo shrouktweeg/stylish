@@ -152,7 +152,7 @@ class _LoginBodyState extends State<LoginBody> {
                     text: S.of(context).CreateAnAccount,
                     textButton: S.of(context).SignUp,
                     onPressed: () {
-                      context.pushNamed(AppRoutes.signUp);
+                      context.pushNamed(AppRoutes.getStarted);
                     },
                   ),
                 ],

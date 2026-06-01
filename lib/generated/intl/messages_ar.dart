@@ -29,6 +29,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "أدخل عنوان بريدك الإلكتروني",
     ),
+    "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
+      "تجده هنا، اشترِ الآن!",
+    ),
     "ForgotPassword": MessageLookupByLibrary.simpleMessage(
       "هل نسيت كلمة المرور؟",
     ),
@@ -49,6 +52,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
     "Username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
+    "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
+      "تريد الأصالة؟ تفضل!",
+    ),
     "buttonYouAgreeToThePublicOffer": MessageLookupByLibrary.simpleMessage(
       "بالنقر على الزر، فإنك توافق على العرض العام ",
     ),
