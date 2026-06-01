@@ -3,6 +3,7 @@ import 'package:stylish/core/routing/app_routes.dart';
 import 'package:stylish/features/auth/presentation/views/forgot_pass_view.dart';
 import 'package:stylish/features/auth/presentation/views/login_view.dart';
 import 'package:stylish/features/main/presentation/views/get_started_view.dart';
+import 'package:stylish/features/main/presentation/views/main_view.dart';
 import 'package:stylish/features/on_boarding/presentation/views/on_boarding_view.dart';
 import 'package:stylish/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -26,5 +27,6 @@ abstract class AppRouter{
     )),
     GoRoute(path: AppRoutes.forgotPass,name: AppRoutes.forgotPass,builder: (context,state)=>ForgotPassView()),
     GoRoute(path: AppRoutes.getStarted,name: AppRoutes.getStarted,builder: (context,state)=>GetStartedView()),
+    GoRoute(path: AppRoutes.main,name: AppRoutes.main,builder: (context,state)=>MainView()),
   ]);
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+import 'package:stylish/core/routing/app_routes.dart';
 import 'package:stylish/core/utils/app_color.dart';
 import 'package:stylish/core/utils/app_text_style.dart';
 import 'package:stylish/core/widgets/custom_button.dart';
@@ -24,11 +26,13 @@ class GetStartedView extends StatelessWidget {
           ),
           Positioned(
             bottom: 34.h,
-              left: 37.w,
+              left: 0,
+              right: 0,
               child:
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
+              mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Center(
@@ -39,7 +43,9 @@ class GetStartedView extends StatelessWidget {
                 CustomHeightSizedBox(height: 14),
                 Text(S.of(context).FindItHereBuyItNow,style: AppTextStyles.montserrat14Regular.copyWith(color: Color(0xffF2F2F2),),textAlign: TextAlign.center,),
                 CustomHeightSizedBox(height: 40),
-                CustomButton(height: 55, width: 279,title: S.of(context).GetStarted,style: AppTextStyles.montserrat20SemiBold.copyWith(color: AppColors.white),onPressed: (){},),
+                CustomButton(height: 55, width: 279,title: S.of(context).GetStarted,style: AppTextStyles.montserrat20SemiBold.copyWith(color: AppColors.white),onPressed: (){
+                  context.goNamed(AppRoutes.main);
+                },),
 
               ],
             ),

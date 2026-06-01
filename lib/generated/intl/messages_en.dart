@@ -38,6 +38,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ForgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
     "GetStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
     "GetYourOrder": MessageLookupByLibrary.simpleMessage("Get Your Order"),
+    "Home": MessageLookupByLibrary.simpleMessage("Home"),
     "IAlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "I Already Have an Account",
     ),
@@ -48,11 +49,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "Password": MessageLookupByLibrary.simpleMessage("Password"),
     "Prev": MessageLookupByLibrary.simpleMessage("Prev"),
     "Register": MessageLookupByLibrary.simpleMessage("Register "),
+    "Search": MessageLookupByLibrary.simpleMessage("Search"),
+    "Setting": MessageLookupByLibrary.simpleMessage("Setting"),
     "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
     "Submit": MessageLookupByLibrary.simpleMessage("Submit"),
     "Username": MessageLookupByLibrary.simpleMessage("Username"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("Welcome Back!"),
+    "WishList": MessageLookupByLibrary.simpleMessage("WishList"),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "You want Authentic, here you go!",
     ),

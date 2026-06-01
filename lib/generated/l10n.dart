@@ -277,6 +277,26 @@ class S {
       args: [],
     );
   }
+
+  /// `Home`
+  String get Home {
+    return Intl.message('Home', name: 'Home', desc: '', args: []);
+  }
+
+  /// `WishList`
+  String get WishList {
+    return Intl.message('WishList', name: 'WishList', desc: '', args: []);
+  }
+
+  /// `Search`
+  String get Search {
+    return Intl.message('Search', name: 'Search', desc: '', args: []);
+  }
+
+  /// `Setting`
+  String get Setting {
+    return Intl.message('Setting', name: 'Setting', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

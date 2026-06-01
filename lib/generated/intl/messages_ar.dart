@@ -37,6 +37,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "GetStarted": MessageLookupByLibrary.simpleMessage("لنبدأ"),
     "GetYourOrder": MessageLookupByLibrary.simpleMessage("احصل على طلبك"),
+    "Home": MessageLookupByLibrary.simpleMessage("لرئيسية"),
     "IAlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "لدي حساب بالفعل",
     ),
@@ -47,11 +48,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "Prev": MessageLookupByLibrary.simpleMessage("السابق"),
     "Register": MessageLookupByLibrary.simpleMessage("التسجيل "),
+    "Search": MessageLookupByLibrary.simpleMessage("البحث"),
+    "Setting": MessageLookupByLibrary.simpleMessage("الإعدادات"),
     "SignUp": MessageLookupByLibrary.simpleMessage("إنشاء"),
     "Skip": MessageLookupByLibrary.simpleMessage("تخطى"),
     "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
     "Username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
+    "WishList": MessageLookupByLibrary.simpleMessage("المفضلة"),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "تريد الأصالة؟ تفضل!",
     ),

@@ -88,5 +88,13 @@ class AppTextStyles {
     fontWeight: FontWeight.bold,
     color: AppColors.primaryRed,
     decoration: TextDecoration.underline,
+  );  static TextStyle roboto12MediumRed = GoogleFonts.roboto(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.primaryRed,
+  ); static TextStyle roboto12RegularBlack = GoogleFonts.roboto(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.black,
   );
 }

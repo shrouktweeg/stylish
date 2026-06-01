@@ -28,7 +28,11 @@
   "forgotPasswordDescription": "* سنرسل إليك رسالة لتعيين أو إعادة تعيين كلمة المرور الجديدة الخاصة بك",
   "Submit": "إرسال",
   "YouWantAuthenticHereYouGo": "تريد الأصالة؟ تفضل!",
-  "FindItHereBuyItNow": "تجده هنا، اشترِ الآن!"
+  "FindItHereBuyItNow": "تجده هنا، اشترِ الآن!",
+  "Home": "لرئيسية",
+  "WishList": "المفضلة",
+  "Search": "البحث",
+  "Setting": "الإعدادات"
 
 
 
