@@ -4,6 +4,7 @@ import 'package:stylish/core/utils/app_text_style.dart';
 
 import '../../../../core/utils/app_color.dart';
 import '../../../../generated/l10n.dart';
+import '../../../home/presentation/views/home_view.dart';
 
 class MainView extends StatefulWidget {
   const MainView({super.key});
@@ -16,7 +17,7 @@ class _MainViewState extends State<MainView> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    Center(child: Text("Home View")),
+    HomeView(),
     Center(child: Text("WishList View")),
     Center(child: Text("Cart View")),
     Center(child: Text("Search View")),

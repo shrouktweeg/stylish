@@ -6,7 +6,6 @@ class AppColors {
   static const Color secondaryBlue = Color(0xFF4392F9);
   static const Color lightRed = Color(0xFFFCF3F6);
 
-  static const Color dealOfTheDayBlue = Color(0xFF4392F9);
   static const Color trendingCoral = Color(0xFFFD6E87);
   static const Color discountYellow = Color(0xFFFEAD1D);
   static const Color grey = Color(0xFFA0A0A1);
@@ -22,6 +21,7 @@ class AppColors {
   static const Color greyLight = Color(0xFFF2F2F2);
   static const Color hintColor = Color(0xfff676767);
   static const Color prefixIconColor = Color(0xff626262);
+  static const Color iconColor = Color(0xff323232);
 
   static const Color starRating = Color(0xFFEDB310);
 

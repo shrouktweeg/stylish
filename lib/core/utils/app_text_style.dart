@@ -31,6 +31,11 @@ class AppTextStyles {
     fontWeight: FontWeight.bold,
     color: AppColors.primaryRed,
   );
+  static TextStyle libreCaslonText18Bold = GoogleFonts.libreCaslonText(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.secondaryBlue,
+  );
 
   static TextStyle montserrat24Bold = GoogleFonts.montserrat(
     fontSize: 24.sp,

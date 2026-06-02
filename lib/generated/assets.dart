@@ -14,15 +14,23 @@ class $AssetsImagesGen {
   const $AssetsImagesGen();
 
   final AssetGenImage appIcon = const AssetGenImage(
-      'assets/images/app_icon.png');
+    'assets/images/app_icon.png',
+  );
   final AssetGenImage getStarted = const AssetGenImage(
-      'assets/images/get_started.png');
+    'assets/images/get_started.png',
+  );
   final AssetGenImage onBoarding1 = const AssetGenImage(
-      'assets/images/onBoarding1.png');
+    'assets/images/onBoarding1.png',
+  );
   final AssetGenImage onBoarding2 = const AssetGenImage(
-      'assets/images/onBoarding2.png');
+    'assets/images/onBoarding2.png',
+  );
   final AssetGenImage onBoarding3 = const AssetGenImage(
-      'assets/images/onBoarding3.png');
+    'assets/images/onBoarding3.png',
+  );
+  final AssetGenImage profile = const AssetGenImage(
+    'assets/images/profile.png',
+  );
   final AssetGenImage splash = const AssetGenImage('assets/images/splash.png');
 }
 
@@ -38,7 +46,6 @@ class AssetGenImage {
   const AssetGenImage(this._assetName, {this.size, this.flavors = const {}});
 
   final String _assetName;
-
 
   final Size? size;
   final Set<String> flavors;
@@ -96,15 +103,8 @@ class AssetGenImage {
     );
   }
 
-  ImageProvider provider({
-    AssetBundle? bundle,
-    String? package,
-  }) {
-    return AssetImage(
-      _assetName,
-      bundle: bundle,
-      package: package,
-    );
+  ImageProvider provider({AssetBundle? bundle, String? package}) {
+    return AssetImage(_assetName, bundle: bundle, package: package);
   }
 
   Widget custom({
@@ -176,4 +176,3 @@ class SvgGenImage {
 
   String get keyName => _assetName;
 }
-
