@@ -26,7 +26,8 @@ class CustomButton extends StatelessWidget {
           backgroundColor:backgroundColor??AppColors.primaryRed,
           shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(borderRadius??4.r)),
         ),
-        child: Text(title??"",style:style?? AppTextStyles.montserrat20SemiBold,),
+        child:Text(title??"",style:style?? AppTextStyles.montserrat20SemiBold,)
+
       ),
     );
   }

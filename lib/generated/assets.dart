@@ -16,9 +16,18 @@ class $AssetsImagesGen {
   final AssetGenImage appIcon = const AssetGenImage(
     'assets/images/app_icon.png',
   );
+  final AssetGenImage beauty = const AssetGenImage('assets/images/beauty.png');
+  final AssetGenImage fashion = const AssetGenImage(
+    'assets/images/fashion.png',
+  );
   final AssetGenImage getStarted = const AssetGenImage(
     'assets/images/get_started.png',
   );
+  final AssetGenImage itemImage = const AssetGenImage(
+    'assets/images/item_image.png',
+  );
+  final AssetGenImage kids = const AssetGenImage('assets/images/kids.png');
+  final AssetGenImage mens = const AssetGenImage('assets/images/mens.png');
   final AssetGenImage onBoarding1 = const AssetGenImage(
     'assets/images/onBoarding1.png',
   );
@@ -32,6 +41,7 @@ class $AssetsImagesGen {
     'assets/images/profile.png',
   );
   final AssetGenImage splash = const AssetGenImage('assets/images/splash.png');
+  final AssetGenImage women = const AssetGenImage('assets/images/women.png');
 }
 
 class $AssetsIconsGen {
@@ -39,7 +49,9 @@ class $AssetsIconsGen {
 
   final SvgGenImage apple = const SvgGenImage('assets/icons/apple.svg');
   final SvgGenImage facebook = const SvgGenImage('assets/icons/facebook.svg');
+  final SvgGenImage filter = const SvgGenImage('assets/icons/filter.svg');
   final SvgGenImage google = const SvgGenImage('assets/icons/google.svg');
+  final SvgGenImage sort = const SvgGenImage('assets/icons/sort.svg');
 }
 
 class AssetGenImage {

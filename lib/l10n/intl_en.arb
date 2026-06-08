@@ -32,6 +32,23 @@
   "Home": "Home",
   "WishList": "WishList",
   "Search": "Search",
-  "Setting": "Setting"
+  "Setting": "Setting",
+  "SearchAnyProduct": "Search any Product..",
+  "AllFeatured": "All Featured",
+  "Sort": "Sort",
+  "Filter": "Filter",
+  "Beauty": "Beauty",
+  "Fashion": "Fashion",
+  "Kids": "Kids",
+  "Mens": "Mens",
+  "Women": "Women",
+  "Discount": "50-40% OFF",
+  "NowInProduct": "Now in (product)",
+  "AllColors": "All colors",
+  "ShopNow": "Shop Now"
+
+
+
+
 
 }

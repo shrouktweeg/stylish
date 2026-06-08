@@ -22,16 +22,22 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "AllColors": MessageLookupByLibrary.simpleMessage("All colors"),
+    "AllFeatured": MessageLookupByLibrary.simpleMessage("All Featured"),
+    "Beauty": MessageLookupByLibrary.simpleMessage("Beauty"),
     "ByClickingThe": MessageLookupByLibrary.simpleMessage("By clicking the "),
     "ChooseProducts": MessageLookupByLibrary.simpleMessage("Choose Products"),
     "ConfirmPassword": MessageLookupByLibrary.simpleMessage("ConfirmPassword"),
     "CreateAnAccount": MessageLookupByLibrary.simpleMessage(
       "Create An Account",
     ),
+    "Discount": MessageLookupByLibrary.simpleMessage("50-40% OFF"),
     "Email": MessageLookupByLibrary.simpleMessage("Email"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "Enter your email address",
     ),
+    "Fashion": MessageLookupByLibrary.simpleMessage("Fashion"),
+    "Filter": MessageLookupByLibrary.simpleMessage("Filter"),
     "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
       "Find it here, buy it now!",
     ),
@@ -42,21 +48,30 @@ class MessageLookup extends MessageLookupByLibrary {
     "IAlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "I Already Have an Account",
     ),
+    "Kids": MessageLookupByLibrary.simpleMessage("Kids"),
     "Login": MessageLookupByLibrary.simpleMessage("Login"),
     "MakePayment": MessageLookupByLibrary.simpleMessage("Make Payment"),
+    "Mens": MessageLookupByLibrary.simpleMessage("Mens"),
     "Next": MessageLookupByLibrary.simpleMessage("Next"),
+    "NowInProduct": MessageLookupByLibrary.simpleMessage("Now in (product)"),
     "ORContinueWith": MessageLookupByLibrary.simpleMessage("OR Continue with"),
     "Password": MessageLookupByLibrary.simpleMessage("Password"),
     "Prev": MessageLookupByLibrary.simpleMessage("Prev"),
     "Register": MessageLookupByLibrary.simpleMessage("Register "),
     "Search": MessageLookupByLibrary.simpleMessage("Search"),
+    "SearchAnyProduct": MessageLookupByLibrary.simpleMessage(
+      "Search any Product..",
+    ),
     "Setting": MessageLookupByLibrary.simpleMessage("Setting"),
+    "ShopNow": MessageLookupByLibrary.simpleMessage("Shop Now"),
     "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
+    "Sort": MessageLookupByLibrary.simpleMessage("Sort"),
     "Submit": MessageLookupByLibrary.simpleMessage("Submit"),
     "Username": MessageLookupByLibrary.simpleMessage("Username"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("Welcome Back!"),
     "WishList": MessageLookupByLibrary.simpleMessage("WishList"),
+    "Women": MessageLookupByLibrary.simpleMessage("Women"),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "You want Authentic, here you go!",
     ),
