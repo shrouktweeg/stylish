@@ -297,6 +297,86 @@ class S {
   String get Setting {
     return Intl.message('Setting', name: 'Setting', desc: '', args: []);
   }
+
+  /// `Search any Product..`
+  String get SearchAnyProduct {
+    return Intl.message(
+      'Search any Product..',
+      name: 'SearchAnyProduct',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All Featured`
+  String get AllFeatured {
+    return Intl.message(
+      'All Featured',
+      name: 'AllFeatured',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sort`
+  String get Sort {
+    return Intl.message('Sort', name: 'Sort', desc: '', args: []);
+  }
+
+  /// `Filter`
+  String get Filter {
+    return Intl.message('Filter', name: 'Filter', desc: '', args: []);
+  }
+
+  /// `Beauty`
+  String get Beauty {
+    return Intl.message('Beauty', name: 'Beauty', desc: '', args: []);
+  }
+
+  /// `Fashion`
+  String get Fashion {
+    return Intl.message('Fashion', name: 'Fashion', desc: '', args: []);
+  }
+
+  /// `Kids`
+  String get Kids {
+    return Intl.message('Kids', name: 'Kids', desc: '', args: []);
+  }
+
+  /// `Mens`
+  String get Mens {
+    return Intl.message('Mens', name: 'Mens', desc: '', args: []);
+  }
+
+  /// `Women`
+  String get Women {
+    return Intl.message('Women', name: 'Women', desc: '', args: []);
+  }
+
+  /// `50-40% OFF`
+  String get Discount {
+    return Intl.message('50-40% OFF', name: 'Discount', desc: '', args: []);
+  }
+
+  /// `Now in (product)`
+  String get NowInProduct {
+    return Intl.message(
+      'Now in (product)',
+      name: 'NowInProduct',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All colors`
+  String get AllColors {
+    return Intl.message('All colors', name: 'AllColors', desc: '', args: []);
+  }
+
+  /// `Shop Now`
+  String get ShopNow {
+    return Intl.message('Shop Now', name: 'ShopNow', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

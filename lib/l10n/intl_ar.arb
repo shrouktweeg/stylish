@@ -32,11 +32,18 @@
   "Home": "لرئيسية",
   "WishList": "المفضلة",
   "Search": "البحث",
-  "Setting": "الإعدادات"
-
-
-
-
-
-
+  "Setting": "الإعدادات",
+  "SearchAnyProduct": "ابحث عن أي منتج..",
+  "AllFeatured": "جميع المميزات",
+  "Sort": "فرز",
+  "Filter": "تصفية",
+  "Beauty": "الجمال",
+  "Fashion": "الأزياء",
+  "Kids": "أطفال",
+  "Mens": "رجالى",
+  "Women": "حريمي",
+  "Discount": "خصم من 40 إلى 50%",
+  "NowInProduct": "متوفر الآن في (المنتج)",
+  "AllColors": "جميع الألوان",
+  "ShopNow": "تسوق الآن"
 }

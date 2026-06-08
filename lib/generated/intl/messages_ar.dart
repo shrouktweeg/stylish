@@ -22,13 +22,19 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "AllColors": MessageLookupByLibrary.simpleMessage("جميع الألوان"),
+    "AllFeatured": MessageLookupByLibrary.simpleMessage("جميع المميزات"),
+    "Beauty": MessageLookupByLibrary.simpleMessage("الجمال"),
     "ByClickingThe": MessageLookupByLibrary.simpleMessage("بالنقر على "),
     "ChooseProducts": MessageLookupByLibrary.simpleMessage("اختر المنتجات"),
     "ConfirmPassword": MessageLookupByLibrary.simpleMessage("تأكيد كمة المرور"),
+    "Discount": MessageLookupByLibrary.simpleMessage("خصم من 40 إلى 50%"),
     "Email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
       "أدخل عنوان بريدك الإلكتروني",
     ),
+    "Fashion": MessageLookupByLibrary.simpleMessage("الأزياء"),
+    "Filter": MessageLookupByLibrary.simpleMessage("تصفية"),
     "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
       "تجده هنا، اشترِ الآن!",
     ),
@@ -41,21 +47,32 @@ class MessageLookup extends MessageLookupByLibrary {
     "IAlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "لدي حساب بالفعل",
     ),
+    "Kids": MessageLookupByLibrary.simpleMessage("أطفال"),
     "Login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "MakePayment": MessageLookupByLibrary.simpleMessage("إجراء الدفع"),
+    "Mens": MessageLookupByLibrary.simpleMessage("رجالى"),
     "Next": MessageLookupByLibrary.simpleMessage("التالى"),
+    "NowInProduct": MessageLookupByLibrary.simpleMessage(
+      "متوفر الآن في (المنتج)",
+    ),
     "ORContinueWith": MessageLookupByLibrary.simpleMessage("أو تابع مع"),
     "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "Prev": MessageLookupByLibrary.simpleMessage("السابق"),
     "Register": MessageLookupByLibrary.simpleMessage("التسجيل "),
     "Search": MessageLookupByLibrary.simpleMessage("البحث"),
+    "SearchAnyProduct": MessageLookupByLibrary.simpleMessage(
+      "ابحث عن أي منتج..",
+    ),
     "Setting": MessageLookupByLibrary.simpleMessage("الإعدادات"),
+    "ShopNow": MessageLookupByLibrary.simpleMessage("تسوق الآن"),
     "SignUp": MessageLookupByLibrary.simpleMessage("إنشاء"),
     "Skip": MessageLookupByLibrary.simpleMessage("تخطى"),
+    "Sort": MessageLookupByLibrary.simpleMessage("فرز"),
     "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
     "Username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
     "WishList": MessageLookupByLibrary.simpleMessage("المفضلة"),
+    "Women": MessageLookupByLibrary.simpleMessage("حريمي"),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "تريد الأصالة؟ تفضل!",
     ),

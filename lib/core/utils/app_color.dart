@@ -10,8 +10,10 @@ class AppColors {
   static const Color discountYellow = Color(0xFFFEAD1D);
   static const Color grey = Color(0xFFA0A0A1);
   static const Color promoPink = Color(0xFFF9B5C1);
+  static const Color lightPink = Color(0xFFFFA3B3);
+  static const Color dotsInActiveColor = Color(0xFFDEDBDB);
 
-  static const Color background = Color(0xFFFFFFFF);
+  static const Color background = Color(0xffFDFDFD);
   static const Color dividerColor = Color(0xFF575757);
   static const Color textMain = Color(0xFF000000);
   static const Color textSecondary = Color(0xFFA8A8A8);
@@ -22,6 +24,7 @@ class AppColors {
   static const Color hintColor = Color(0xfff676767);
   static const Color prefixIconColor = Color(0xff626262);
   static const Color iconColor = Color(0xff323232);
+  static const Color itemTextColor = Color(0xff21003D);
 
   static const Color starRating = Color(0xFFEDB310);
 

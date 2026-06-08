@@ -11,6 +11,8 @@ class CustomTextFormField extends StatelessWidget {
   final IconData? suffixIcon;
   final bool? obscureText;
   final bool? isPassword;
+  final Color? textFieldColor;
+  final Color? borderColor;
   final void Function()? onPressedIcon;
   final String? Function(String?)? validator;
   const CustomTextFormField({
@@ -22,7 +24,7 @@ class CustomTextFormField extends StatelessWidget {
     this.obscureText,
     this.isPassword,
     this.validator,
-    this.suffixIcon, this.onPressedIcon,
+    this.suffixIcon, this.onPressedIcon, this.textFieldColor, this.borderColor,
   });
 
   @override
@@ -35,7 +37,7 @@ class CustomTextFormField extends StatelessWidget {
       decoration: InputDecoration(
         contentPadding: EdgeInsetsGeometry.only(top: 18.r, left: 18.r),
         filled: true,
-        fillColor: AppColors.textFieldColor,
+        fillColor: textFieldColor??AppColors.textFieldColor,
         hint: Text(
           hintText ?? '',
           style: AppTextStyles.montserrat12Medium,
@@ -46,15 +48,15 @@ class CustomTextFormField extends StatelessWidget {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(borderRadius ?? 10.r),
-          borderSide: BorderSide(color: AppColors.hintColor),
+          borderSide: BorderSide(color:borderColor?? AppColors.hintColor),
         ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(borderRadius ?? 10.r),
-          borderSide: BorderSide(color: AppColors.hintColor),
+          borderSide: BorderSide(color:borderColor?? AppColors.hintColor),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(borderRadius ?? 10.r),
-          borderSide: BorderSide(color: AppColors.hintColor),
+          borderSide: BorderSide(color:borderColor?? AppColors.hintColor),
         ),
         prefixIcon: Icon(prefixIcon),
         suffixIcon: suffixIcon != null?IconButton(icon: Icon(suffixIcon),onPressed: onPressedIcon, color: AppColors.prefixIconColor):null,

@@ -57,6 +57,10 @@ class AppTextStyles {
     fontSize: 20.sp,
     fontWeight: FontWeight.w600,
     color: AppColors.white,
+  ); static TextStyle montserrat20Bold = GoogleFonts.montserrat(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.white,
   );
   static TextStyle montserrat18SemiBold = GoogleFonts.montserrat(
     fontSize: 18.sp,
