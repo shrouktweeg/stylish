@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "ByClickingThe": MessageLookupByLibrary.simpleMessage("بالنقر على "),
     "ChooseProducts": MessageLookupByLibrary.simpleMessage("اختر المنتجات"),
     "ConfirmPassword": MessageLookupByLibrary.simpleMessage("تأكيد كمة المرور"),
+    "DealOfTheDay": MessageLookupByLibrary.simpleMessage("صفقة اليوم"),
     "Discount": MessageLookupByLibrary.simpleMessage("خصم من 40 إلى 50%"),
     "Email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
@@ -38,6 +39,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
       "تجده هنا، اشترِ الآن!",
     ),
+    "FlatAndHeels": MessageLookupByLibrary.simpleMessage("Flat and Heels"),
     "ForgotPassword": MessageLookupByLibrary.simpleMessage(
       "هل نسيت كلمة المرور؟",
     ),
@@ -48,16 +50,25 @@ class MessageLookup extends MessageLookupByLibrary {
       "لدي حساب بالفعل",
     ),
     "Kids": MessageLookupByLibrary.simpleMessage("أطفال"),
+    "LastDate": MessageLookupByLibrary.simpleMessage("آخر موعد 29/02/2022"),
     "Login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "MakePayment": MessageLookupByLibrary.simpleMessage("إجراء الدفع"),
     "Mens": MessageLookupByLibrary.simpleMessage("رجالى"),
+    "NequePorroQuisquamEstQuiDoloremIpsumQuia":
+        MessageLookupByLibrary.simpleMessage(
+          "Neque porro quisquam est qui dolorem ipsum quia",
+        ),
+    "NewArrivals": MessageLookupByLibrary.simpleMessage("القادمون الجدد"),
+    "NewPrice2499": MessageLookupByLibrary.simpleMessage("₹2499"),
     "Next": MessageLookupByLibrary.simpleMessage("التالى"),
     "NowInProduct": MessageLookupByLibrary.simpleMessage(
       "متوفر الآن في (المنتج)",
     ),
     "ORContinueWith": MessageLookupByLibrary.simpleMessage("أو تابع مع"),
+    "Offer40Off": MessageLookupByLibrary.simpleMessage("خصم 40%"),
     "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "Prev": MessageLookupByLibrary.simpleMessage("السابق"),
+    "Price1500": MessageLookupByLibrary.simpleMessage("₹1500"),
     "Register": MessageLookupByLibrary.simpleMessage("التسجيل "),
     "Search": MessageLookupByLibrary.simpleMessage("البحث"),
     "SearchAnyProduct": MessageLookupByLibrary.simpleMessage(
@@ -68,11 +79,34 @@ class MessageLookup extends MessageLookupByLibrary {
     "SignUp": MessageLookupByLibrary.simpleMessage("إنشاء"),
     "Skip": MessageLookupByLibrary.simpleMessage("تخطى"),
     "Sort": MessageLookupByLibrary.simpleMessage("فرز"),
+    "SpecialOffers": MessageLookupByLibrary.simpleMessage("عروض خاصة"),
+    "StandAChanceToGetRewarded": MessageLookupByLibrary.simpleMessage(
+      "لديك فرصة للحصول على مكافأة",
+    ),
     "Submit": MessageLookupByLibrary.simpleMessage("إرسال"),
+    "Summer25Collections": MessageLookupByLibrary.simpleMessage(
+      "مجموعات صيف 2025",
+    ),
+    "Time22h55m20sRemaining": MessageLookupByLibrary.simpleMessage(
+      "متبقي 22 ساعة و55 دقيقة و20 ثانية ",
+    ),
+    "TrendingProducts": MessageLookupByLibrary.simpleMessage(
+      "المنتجات الرائجة",
+    ),
     "Username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
+    "Users": MessageLookupByLibrary.simpleMessage("56890"),
+    "ViewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),
+    "VisitNow": MessageLookupByLibrary.simpleMessage("قم بالزيارة الآن"),
+    "WeMakeSureYouGetTheOfferYouNeedAtBestPrices":
+        MessageLookupByLibrary.simpleMessage(
+          "نضمن لك الحصول على العرض الذي تحتاجه بأفضل الأسعار",
+        ),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("مرحبًا بعودتك!"),
     "WishList": MessageLookupByLibrary.simpleMessage("المفضلة"),
     "Women": MessageLookupByLibrary.simpleMessage("حريمي"),
+    "WomenPrintedKurta": MessageLookupByLibrary.simpleMessage(
+      "كورتا مطبوعة للنساء",
+    ),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "تريد الأصالة؟ تفضل!",
     ),

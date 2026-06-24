@@ -31,6 +31,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "CreateAnAccount": MessageLookupByLibrary.simpleMessage(
       "Create An Account",
     ),
+    "DealOfTheDay": MessageLookupByLibrary.simpleMessage("Deal of the Day"),
     "Discount": MessageLookupByLibrary.simpleMessage("50-40% OFF"),
     "Email": MessageLookupByLibrary.simpleMessage("Email"),
     "EnterYourEmailAddress": MessageLookupByLibrary.simpleMessage(
@@ -41,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "FindItHereBuyItNow": MessageLookupByLibrary.simpleMessage(
       "Find it here, buy it now!",
     ),
+    "FlatAndHeels": MessageLookupByLibrary.simpleMessage("Flat and Heels"),
     "ForgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
     "GetStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
     "GetYourOrder": MessageLookupByLibrary.simpleMessage("Get Your Order"),
@@ -49,14 +51,23 @@ class MessageLookup extends MessageLookupByLibrary {
       "I Already Have an Account",
     ),
     "Kids": MessageLookupByLibrary.simpleMessage("Kids"),
+    "LastDate": MessageLookupByLibrary.simpleMessage("Last Date 29/02/22"),
     "Login": MessageLookupByLibrary.simpleMessage("Login"),
     "MakePayment": MessageLookupByLibrary.simpleMessage("Make Payment"),
     "Mens": MessageLookupByLibrary.simpleMessage("Mens"),
+    "NequePorroQuisquamEstQuiDoloremIpsumQuia":
+        MessageLookupByLibrary.simpleMessage(
+          "Neque porro quisquam est qui dolorem ipsum quia",
+        ),
+    "NewArrivals": MessageLookupByLibrary.simpleMessage("New Arrivals"),
+    "NewPrice2499": MessageLookupByLibrary.simpleMessage("₹2499"),
     "Next": MessageLookupByLibrary.simpleMessage("Next"),
     "NowInProduct": MessageLookupByLibrary.simpleMessage("Now in (product)"),
     "ORContinueWith": MessageLookupByLibrary.simpleMessage("OR Continue with"),
+    "Offer40Off": MessageLookupByLibrary.simpleMessage("40%Off"),
     "Password": MessageLookupByLibrary.simpleMessage("Password"),
     "Prev": MessageLookupByLibrary.simpleMessage("Prev"),
+    "Price1500": MessageLookupByLibrary.simpleMessage("₹1500"),
     "Register": MessageLookupByLibrary.simpleMessage("Register "),
     "Search": MessageLookupByLibrary.simpleMessage("Search"),
     "SearchAnyProduct": MessageLookupByLibrary.simpleMessage(
@@ -67,11 +78,34 @@ class MessageLookup extends MessageLookupByLibrary {
     "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
     "Sort": MessageLookupByLibrary.simpleMessage("Sort"),
+    "SpecialOffers": MessageLookupByLibrary.simpleMessage("Special Offers"),
+    "StandAChanceToGetRewarded": MessageLookupByLibrary.simpleMessage(
+      "Stand a chance to get rewarded",
+    ),
     "Submit": MessageLookupByLibrary.simpleMessage("Submit"),
+    "Summer25Collections": MessageLookupByLibrary.simpleMessage(
+      "Summer’ 25 Collections",
+    ),
+    "Time22h55m20sRemaining": MessageLookupByLibrary.simpleMessage(
+      "22h 55m 20s remaining ",
+    ),
+    "TrendingProducts": MessageLookupByLibrary.simpleMessage(
+      "Trending Products",
+    ),
     "Username": MessageLookupByLibrary.simpleMessage("Username"),
+    "Users": MessageLookupByLibrary.simpleMessage("56890"),
+    "ViewAll": MessageLookupByLibrary.simpleMessage("View all"),
+    "VisitNow": MessageLookupByLibrary.simpleMessage("Visit now"),
+    "WeMakeSureYouGetTheOfferYouNeedAtBestPrices":
+        MessageLookupByLibrary.simpleMessage(
+          "We make sure you get the offer you need at best prices",
+        ),
     "WelcomeBack": MessageLookupByLibrary.simpleMessage("Welcome Back!"),
     "WishList": MessageLookupByLibrary.simpleMessage("WishList"),
     "Women": MessageLookupByLibrary.simpleMessage("Women"),
+    "WomenPrintedKurta": MessageLookupByLibrary.simpleMessage(
+      "Women Printed Kurta",
+    ),
     "YouWantAuthenticHereYouGo": MessageLookupByLibrary.simpleMessage(
       "You want Authentic, here you go!",
     ),

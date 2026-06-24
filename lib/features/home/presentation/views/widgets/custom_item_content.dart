@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../core/utils/app_color.dart';
 import '../../../../../core/utils/app_text_style.dart';
+import '../../../../../core/widgets/custom_outlined_button.dart';
 import '../../../../../generated/assets.dart';
 import '../../../../../generated/l10n.dart';
 
@@ -51,36 +52,8 @@ class CustomItemContent extends StatelessWidget {
 
             SizedBox(height: 10.h),
 
-            OutlinedButton(
-              style: OutlinedButton.styleFrom(
-                side: const BorderSide(color: AppColors.white, width: 1),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(6.r),
-                ),
-                backgroundColor: Colors.transparent,
-                padding: EdgeInsets.symmetric(horizontal: 10.w),
-                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                minimumSize: Size.zero,
-              ),
-              onPressed: () {},
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    S.of(context).ShopNow,
-                    style: AppTextStyles.montserrat12SemiBold.copyWith(
-                      color: AppColors.white,
-                    ),
-                  ),
-                  SizedBox(width: 4.w),
-                  Icon(
-                    Icons.arrow_forward,
-                    size: 13.sp,
-                    color: AppColors.white,
-                  ),
-                ],
-              ),
-            ),
+            CustomOutlinedButton(text: S.of(context).ShopNow,),
+
           ],
         ),
       ),

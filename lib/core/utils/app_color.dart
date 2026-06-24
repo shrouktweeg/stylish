@@ -12,6 +12,8 @@ class AppColors {
   static const Color promoPink = Color(0xFFF9B5C1);
   static const Color lightPink = Color(0xFFFFA3B3);
   static const Color dotsInActiveColor = Color(0xFFDEDBDB);
+  static const Color oldPriceColor = Color(0xFFBBBBBB);
+  static const Color offerColor = Color(0xFFFE735C);
 
   static const Color background = Color(0xffFDFDFD);
   static const Color dividerColor = Color(0xFF575757);

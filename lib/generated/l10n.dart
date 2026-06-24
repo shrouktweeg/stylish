@@ -377,6 +377,156 @@ class S {
   String get ShopNow {
     return Intl.message('Shop Now', name: 'ShopNow', desc: '', args: []);
   }
+
+  /// `Deal of the Day`
+  String get DealOfTheDay {
+    return Intl.message(
+      'Deal of the Day',
+      name: 'DealOfTheDay',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `22h 55m 20s remaining `
+  String get Time22h55m20sRemaining {
+    return Intl.message(
+      '22h 55m 20s remaining ',
+      name: 'Time22h55m20sRemaining',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `View all`
+  String get ViewAll {
+    return Intl.message('View all', name: 'ViewAll', desc: '', args: []);
+  }
+
+  /// `Women Printed Kurta`
+  String get WomenPrintedKurta {
+    return Intl.message(
+      'Women Printed Kurta',
+      name: 'WomenPrintedKurta',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Neque porro quisquam est qui dolorem ipsum quia`
+  String get NequePorroQuisquamEstQuiDoloremIpsumQuia {
+    return Intl.message(
+      'Neque porro quisquam est qui dolorem ipsum quia',
+      name: 'NequePorroQuisquamEstQuiDoloremIpsumQuia',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `₹1500`
+  String get Price1500 {
+    return Intl.message('₹1500', name: 'Price1500', desc: '', args: []);
+  }
+
+  /// `₹2499`
+  String get NewPrice2499 {
+    return Intl.message('₹2499', name: 'NewPrice2499', desc: '', args: []);
+  }
+
+  /// `40%Off`
+  String get Offer40Off {
+    return Intl.message('40%Off', name: 'Offer40Off', desc: '', args: []);
+  }
+
+  /// `56890`
+  String get Users {
+    return Intl.message('56890', name: 'Users', desc: '', args: []);
+  }
+
+  /// `Special Offers`
+  String get SpecialOffers {
+    return Intl.message(
+      'Special Offers',
+      name: 'SpecialOffers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We make sure you get the offer you need at best prices`
+  String get WeMakeSureYouGetTheOfferYouNeedAtBestPrices {
+    return Intl.message(
+      'We make sure you get the offer you need at best prices',
+      name: 'WeMakeSureYouGetTheOfferYouNeedAtBestPrices',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Flat and Heels`
+  String get FlatAndHeels {
+    return Intl.message(
+      'Flat and Heels',
+      name: 'FlatAndHeels',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Stand a chance to get rewarded`
+  String get StandAChanceToGetRewarded {
+    return Intl.message(
+      'Stand a chance to get rewarded',
+      name: 'StandAChanceToGetRewarded',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Visit now`
+  String get VisitNow {
+    return Intl.message('Visit now', name: 'VisitNow', desc: '', args: []);
+  }
+
+  /// `Trending Products`
+  String get TrendingProducts {
+    return Intl.message(
+      'Trending Products',
+      name: 'TrendingProducts',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Date 29/02/22`
+  String get LastDate {
+    return Intl.message(
+      'Last Date 29/02/22',
+      name: 'LastDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Arrivals`
+  String get NewArrivals {
+    return Intl.message(
+      'New Arrivals',
+      name: 'NewArrivals',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Summer’ 25 Collections`
+  String get Summer25Collections {
+    return Intl.message(
+      'Summer’ 25 Collections',
+      name: 'Summer25Collections',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

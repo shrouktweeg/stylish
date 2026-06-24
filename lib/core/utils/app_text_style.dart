@@ -13,10 +13,32 @@ class AppTextStyles {
     fontSize: 36.sp,
     fontWeight: FontWeight.bold,
     color: AppColors.black,
+  );   static TextStyle montserrat20Medium = GoogleFonts.montserrat(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.black,
+  );   static TextStyle montserrat16Medium = GoogleFonts.montserrat(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.white,
   ); static TextStyle montserrat12Regular = GoogleFonts.montserrat(
     fontSize: 12.sp,
     fontWeight: FontWeight.w400,
     color: AppColors.primaryRed,
+  ); static TextStyle montserrat16Regular = GoogleFonts.montserrat(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.black,
+  ); static TextStyle montserrat12LightDecoration = GoogleFonts.montserrat(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w200,
+    color: AppColors.oldPriceColor,
+    decoration: TextDecoration.lineThrough,
+    decorationColor: AppColors.oldPriceColor,
+  ); static TextStyle montserrat12Light = GoogleFonts.montserrat(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w200,
+    color: AppColors.black,
   ); static TextStyle montserrat24ExtraBold = GoogleFonts.montserrat(
     fontSize: 24.sp,
     fontWeight: FontWeight.w800,
@@ -39,6 +61,10 @@ class AppTextStyles {
 
   static TextStyle montserrat24Bold = GoogleFonts.montserrat(
     fontSize: 24.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.black,
+  ); static TextStyle montserrat16Bold = GoogleFonts.montserrat(
+    fontSize: 16.sp,
     fontWeight: FontWeight.bold,
     color: AppColors.black,
   );
